@@ -42,6 +42,7 @@ service:
 
 ingress:
   enabled: true
+  host: springboot.a7ccdd7d83a7742eda03f25ebc602dc3-1908068335.ap-south-1.elb.amazonaws.com
   className: "nginx"  # Ensure this matches your Ingress controller (e.g., NGINX Ingress)
   annotations:
     kubernetes.io/ingress.class: "nginx"  # This tells Kubernetes which Ingress controller to use
